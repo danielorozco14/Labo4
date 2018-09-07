@@ -62,3 +62,8 @@ input:hover{
     display: grid;
   grid-template-columns: auto auto;
 }
+h2{
+    font-family: 'Roboto';
+    border-bottom: 4px solid #f56a6a; 
+    border-width: 5px;
+}
