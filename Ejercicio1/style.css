@@ -60,10 +60,40 @@ input:hover{
 }
 .grid-container{
     display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
 }
-h2{
+.gema{
     font-family: 'Roboto';
-    border-bottom: 4px solid #f56a6a; 
+    border-top: 4px solid #f56a6a; 
     border-width: 5px;
 }
+.cuadricula{
+    display: grid;
+    grid-template-columns: auto 10px;
+    padding: 10px;
+}
+.gema{
+    color: #f56a6a;
+    font-size: 25px;
+    
+}
+.cohete{
+    color: #f56a6a;
+    font-size: 25px;
+}
+.plane{
+    color: #f56a6a;
+    font-size: 25px;
+}
+.signal{
+    color: #f56a6a;
+    font-size: 25px;
+}
+.portitor{
+ 
+  padding: 10px;
+  font-size: 15px;
+
+   
+}
+
